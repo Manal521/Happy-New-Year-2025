@@ -1,0 +1,54 @@
+             body {
+                 display: flex;
+                 justify-content: center;
+                 padding: 50px;
+                 font-size: 100px;
+                 background-image: linear-gradient(to right, #045968, #00d4ff);
+                 color: white;
+             }
+             
+             h1:hover {
+                 cursor: pointer;
+             }
+             
+             h1 {
+                 font-family: 'Courier New', Courier, monospace;
+             }
+             
+             p {
+                 font-family: 'Courier New', Courier, monospace;
+             }
+             
+             p:hover {
+                 cursor: pointer;
+             }
+             
+             @media (max-width: 1200px) {
+                 body {
+                     font-size: 80px;
+                 }
+             }
+             
+             @media (max-width: 992px) {
+                 body {
+                     font-size: 60px;
+                 }
+             }
+             
+             @media (max-width: 768px) {
+                 body {
+                     font-size: 50px;
+                 }
+             }
+             
+             @media (max-width: 576px) {
+                 body {
+                     font-size: 40px;
+                 }
+             }
+             
+             @media (max-width: 400px) {
+                 body {
+                     font-size: 30px;
+                 }
+             }
